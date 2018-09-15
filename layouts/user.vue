@@ -5,7 +5,7 @@
         <v-list-tile>
           <v-list-tile-action>
             <nuxt-link class="black--text" to='#'>
-              <v-icon class="black--text">dashboard</v-icon>
+              <img src="/home_1.png" alt="">
             </nuxt-link>
           </v-list-tile-action>
           <v-list-tile-content>
@@ -15,7 +15,7 @@
         <v-list-tile>
           <v-list-tile-action>
             <nuxt-link class="black--text" to='#'>
-              <v-icon class="black--text">info</v-icon>
+              <img src="#_1.png" alt="">
             </nuxt-link>
           </v-list-tile-action>
           <v-list-tile-content>
@@ -25,7 +25,7 @@
         <v-list-tile>
           <v-list-tile-action>
             <nuxt-link to='#'>
-              <v-icon class="black--text">image_search</v-icon>
+              <img src="/faq_1.png" alt="">
             </nuxt-link>
           </v-list-tile-action>
           <v-list-tile-content>
@@ -35,7 +35,7 @@
         <v-list-tile>
           <v-list-tile-action>
             <nuxt-link to='#'>
-              <v-icon class="black--text">school</v-icon>
+              <img src="/faq_1.png" alt="">
             </nuxt-link>
           </v-list-tile-action>
           <v-list-tile-content>
@@ -45,7 +45,7 @@
         <v-list-tile>
           <v-list-tile-action>
             <nuxt-link to='#'>
-              <v-icon class="black--text">person_add</v-icon>
+              <img src="/signup_1.png" alt="">
             </nuxt-link>
           </v-list-tile-action>
           <v-list-tile-content>
@@ -55,7 +55,7 @@
         <v-list-tile>
           <v-list-tile-action>
             <nuxt-link to='#'>
-              <v-icon class="black--text">fingerprint</v-icon>
+              <img src="/login_1.png" alt="">
             </nuxt-link>
           </v-list-tile-action>
           <v-list-tile-content>
@@ -74,8 +74,8 @@
       <v-spacer></v-spacer>
       <v-layout>
         <v-flex class='hidden-sm-and-down'>
-          <v-btn to='#' dark flat>Home</v-btn>
-          <v-btn to='#' flat dark>About</v-btn>
+          <v-btn to='#' dark flat>FEATURED COURSES</v-btn>
+          <v-btn to='#' flat dark>LIBRARY</v-btn>
           <v-btn dark to='#' flat>LEARNING</v-btn>
           <v-btn dark to='#' flat>CHALLENGE</v-btn>
         </v-flex>
@@ -87,8 +87,7 @@
         <v-spacer></v-spacer>
         <v-spacer></v-spacer>
         <v-flex class='hidden-sm-and-down'>
-          <v-btn dark flat to='#'>Sign Up</v-btn>
-          <v-btn round class="px-4" outline to='/user'>Log In</v-btn>
+          <v-btn round class="px-4" outline to='/'>Log Out</v-btn>
         </v-flex>
       </v-layout>
     </v-toolbar>

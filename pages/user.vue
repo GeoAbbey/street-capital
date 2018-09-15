@@ -3,9 +3,10 @@
     <section>
       <v-img class="bg" src="/bg.jpg">
         <section class="bg-content white--text">
-          <div class="my-text animated tada">START, LEARN, SUCCEED</div>
+          <div class="my-text animated tada">Welcome back</div>
+          <div class="title my-text2">How has your learning been?</div>
           <div>
-            <v-btn to="/user" round large class="white navbarBg--text">Start your future</v-btn>
+            <v-btn to="#" round large class="white navbarBg--text">Proceed to lecture</v-btn>
           </div>
         </section>
       </v-img>
@@ -58,13 +59,17 @@
     font-size: 5em;
     font-weight: bolder;
 
+    @media (max-width: 768px) {
+      top: 46%;
+      font-size: 3em;
+    }
     @media (max-width: 425px) {
       top: 46%;
-      font-size: 4em;
+      font-size: 2.2em;
     }
     @media (max-width: 375px) {
       top: 45%;
-      font-size: 3em;
+      font-size: 2em;
     }
   }
 
@@ -85,11 +90,22 @@
   .my-text {
     text-shadow: 0px 15px 5px rgba(0, 0, 0, 0.1), 10px 20px 5px rgba(0, 0, 0, 0.05), -10px 20px 5px rgba(0, 0, 0, 0.05);
   }
+
+  .my-text2 {
+    @media (max-width: 425px) {
+      font-size: 0.5em !important;
+      margin: 15px 0 !important;
+    }
+
+    @media (max-width: 768px) {
+      margin: 15px 0 !important;
+    }
+  }
 </style>
 
 <script>
   export default {
-
+    layout: 'user'
   }
 </script>
 
