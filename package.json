@@ -1,0 +1,25 @@
+{
+  "name": "sc-education",
+  "version": "1.0.0",
+  "description": "Street Capital Education App",
+  "author": "Olasunkanmi Ismail",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "aos": "^2.3.3",
+    "nuxt": "^1.4.2",
+    "vuetify": "^1.2.2"
+  },
+  "devDependencies": {
+    "cross-env": "^5.0.1",
+    "node-sass": "^4.9.3",
+    "sass-loader": "^7.1.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1"
+  }
+}
