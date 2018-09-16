@@ -1,11 +1,22 @@
 <template>
   <v-app light>
-    <v-navigation-drawer v-model='sideNav.model' disable-resize-watcher width='200' app overflow left persistent>
+    <v-navigation-drawer v-model='sideNav.model' disable-resize-watcher width='170' app overflow left persistent>
       <v-list>
+        <nuxt-link to="#"><v-list-tile class="profile-image layout justify-center">
+            <v-avatar class="profile-image-holder" size="80px">
+              <img src="/ismail.jpeg" alt="">
+            </v-avatar>
+          </v-list-tile></nuxt-link>
+          <v-list-tile class="mb-3 layout justify-center">
+            <nuxt-link to="/profile"><v-list-tile-content>
+              <h3 class="body-2 black--text">Olasunkanmi Ismail</h3>
+              <div class="caption grey--text"><strong>REG NO: SCE/2016/027</strong></div>
+            </v-list-tile-content></nuxt-link>
+          </v-list-tile>
         <v-list-tile>
           <v-list-tile-action>
             <nuxt-link class="black--text" to='#'>
-              <img src="/home_1.png" alt="">
+              <v-icon class="black--text">dashboard</v-icon>
             </nuxt-link>
           </v-list-tile-action>
           <v-list-tile-content>
@@ -15,7 +26,7 @@
         <v-list-tile>
           <v-list-tile-action>
             <nuxt-link class="black--text" to='#'>
-              <img src="#_1.png" alt="">
+              <v-icon class="black--text">info</v-icon>
             </nuxt-link>
           </v-list-tile-action>
           <v-list-tile-content>
@@ -25,7 +36,7 @@
         <v-list-tile>
           <v-list-tile-action>
             <nuxt-link to='#'>
-              <img src="/faq_1.png" alt="">
+              <v-icon class="black--text">class</v-icon>
             </nuxt-link>
           </v-list-tile-action>
           <v-list-tile-content>
@@ -35,7 +46,7 @@
         <v-list-tile>
           <v-list-tile-action>
             <nuxt-link to='#'>
-              <img src="/faq_1.png" alt="">
+              <v-icon class="black--text">bar_chart</v-icon>
             </nuxt-link>
           </v-list-tile-action>
           <v-list-tile-content>
@@ -44,22 +55,12 @@
         </v-list-tile>
         <v-list-tile>
           <v-list-tile-action>
-            <nuxt-link to='#'>
-              <img src="/signup_1.png" alt="">
+            <nuxt-link to='/'>
+              <v-icon class="black--text">settings_power</v-icon>
             </nuxt-link>
           </v-list-tile-action>
           <v-list-tile-content>
-            <nuxt-link class="black--text" to='#'>Sign Up</nuxt-link>
-          </v-list-tile-content>
-        </v-list-tile>
-        <v-list-tile>
-          <v-list-tile-action>
-            <nuxt-link to='#'>
-              <img src="/login_1.png" alt="">
-            </nuxt-link>
-          </v-list-tile-action>
-          <v-list-tile-content>
-            <nuxt-link class="black--text" to='#'>Sign In</nuxt-link>
+            <nuxt-link class="black--text" to='/'>Log Out</nuxt-link>
           </v-list-tile-content>
         </v-list-tile>
       </v-list>
@@ -138,6 +139,16 @@
   .v-btn {
     font-weight: bolder;
     border-radius: 0 25px;
+  }
+
+  .profile-image {
+    margin: 20% 0 15% 0;
+  }
+
+  .profile-image-holder {
+    -webkit-box-shadow: -2px 10px 110px -16px rgba(204, 209, 237, 1);
+    -moz-box-shadow: -2px 10px 110px -16px rgba(204, 209, 237, 1);
+    box-shadow: -2px 10px 110px -16px rgba(204, 209, 237, 1);
   }
 </style>
 

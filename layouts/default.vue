@@ -25,7 +25,7 @@
         <v-list-tile>
           <v-list-tile-action>
             <nuxt-link to='#'>
-              <v-icon class="black--text">image_search</v-icon>
+              <v-icon class="black--text">class</v-icon>
             </nuxt-link>
           </v-list-tile-action>
           <v-list-tile-content>
@@ -35,7 +35,7 @@
         <v-list-tile>
           <v-list-tile-action>
             <nuxt-link to='#'>
-              <v-icon class="black--text">school</v-icon>
+              <v-icon class="black--text">bar_chart</v-icon>
             </nuxt-link>
           </v-list-tile-action>
           <v-list-tile-content>
@@ -54,12 +54,12 @@
         </v-list-tile>
         <v-list-tile>
           <v-list-tile-action>
-            <nuxt-link to='#'>
+            <nuxt-link to='/user'>
               <v-icon class="black--text">fingerprint</v-icon>
             </nuxt-link>
           </v-list-tile-action>
           <v-list-tile-content>
-            <nuxt-link class="black--text" to='#'>Sign In</nuxt-link>
+            <nuxt-link class="black--text" to='/user'>Sign In</nuxt-link>
           </v-list-tile-content>
         </v-list-tile>
       </v-list>
