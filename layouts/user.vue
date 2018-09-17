@@ -2,17 +2,21 @@
   <v-app light>
     <v-navigation-drawer v-model='sideNav.model' disable-resize-watcher width='170' app overflow left persistent>
       <v-list>
-        <nuxt-link to="#"><v-list-tile class="profile-image layout justify-center">
+        <nuxt-link to="#">
+          <v-list-tile class="profile-image layout justify-center">
             <v-avatar class="profile-image-holder" size="80px">
               <img src="/ismail.jpeg" alt="">
             </v-avatar>
-          </v-list-tile></nuxt-link>
-          <v-list-tile class="mb-3 layout justify-center">
-            <nuxt-link to="/profile"><v-list-tile-content>
+          </v-list-tile>
+        </nuxt-link>
+        <v-list-tile class="mb-3 layout justify-center">
+          <nuxt-link to="/profile">
+            <v-list-tile-content>
               <h3 class="body-2 black--text">Olasunkanmi Ismail</h3>
               <div class="caption grey--text"><strong>REG NO: SCE/2016/027</strong></div>
-            </v-list-tile-content></nuxt-link>
-          </v-list-tile>
+            </v-list-tile-content>
+          </nuxt-link>
+        </v-list-tile>
         <v-list-tile>
           <v-list-tile-action>
             <nuxt-link class="black--text" to='#'>

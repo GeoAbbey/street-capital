@@ -57,7 +57,6 @@
     transform: translate(-50%, -50%);
     font-size: 5em;
     font-weight: bolder;
-
     @media (max-width: 425px) {
       top: 46%;
       font-size: 4em;
