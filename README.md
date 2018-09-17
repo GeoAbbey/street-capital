@@ -1,6 +1,6 @@
-# sc-education
+# Street Capital Education APp
 
-> Street Capital Education App
+> Street Capital Education App developed with VueJs + NuxtJs + VuetifyJs
 
 ## Build Setup
 
@@ -19,4 +19,4 @@ $ yarn start
 $ yarn run generate
 ```
 
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+To access this application online, click [this link](https://streetcapital.herokuapp.com/).
