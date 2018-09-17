@@ -1,6 +1,6 @@
-# Street Capital Education APp
+# Street Capital Education App
 
-> Street Capital Education App developed with VueJs + NuxtJs + VuetifyJs
+> Street Capital Education App developed with Vue + Nuxt + Vuetify
 
 ## Build Setup
 
